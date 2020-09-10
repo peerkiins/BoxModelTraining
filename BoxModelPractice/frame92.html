@@ -13,134 +13,174 @@
 
         body {
             background: black;
+            width: 100%;
+            height: 100%;
         }
 
         #container {
-            width: 1223px;
-            height: 847px;
+            width: 100%;
+            /*1223px*/
+            height: 100%;
+            /*847px*/
         }
 
         #container * {
-            border: 1px solid white;
+            outline: 1px solid white;
         }
 
         #containbox {
-            width: 500px;
+            width: 40.883%;
+            /*500px*/
             height: 565px;
             margin-top: 141px;
-            margin-left: 361px;
+            margin-left: calc(50% - 40.883% / 2);
             background: gray
         }
 
         #textgroup {
-            width: 346px;
+            width: 69.2%;
+            /*346px*/
             height: 371px;
             margin-top: 51px;
-            margin-left: 77px;
+            margin-left: calc(50% - 69.2% / 2);
         }
 
         #join {
-            width: 328px;
+            width: 94.797%;
+            /*328px*/
             height: 27px;
-            margin-left: calc(86px - 77px);
+            margin-left: calc(50% - 94.797% / 2);
         }
 
         .group1 {
-            width: 328.41px;
+            width: 94.916%;
+            /*328.41px*/
             height: 84px;
             margin-top: calc(66px - 27px);
-            margin-left: 9px;
+            margin-left: calc(50% - 94.916% / 2);
         }
 
         #emailbox {
-            width: 328px;
+            width: 94.797%;
+            /*328px*/
             height: 24px;
         }
 
         #q1 {
-            width: 206px;
+            width: 62.804%;
+            /*206px*/
             height: 28px;
             margin-top: 22px;
         }
 
         #iconV {
-            width: 25.41px;
+            width: 7.746%;
+            /*25.41px*/
             height: 25.41px;
             margin-top: 22px;
-            margin-left: 93px;
+            margin-left: calc(100% - 62.804% - 7.746%);
         }
 
         #tellmore {
-            width: 346px;
+            width: 94.797%;
+            /*346px*/
             height: 27px;
             margin-top: 41px;
+            margin-left: calc(50% - 94.797% / 2);
         }
 
         .group2 {
-            width: 328px;
+            width: 94.797%;
+            /*328px*/
             height: 134px;
             margin-top: 11px;
-            margin-left: 9px;
+            margin-left: calc(50% - 94.797% / 2);
         }
 
         #q2 {
-            width: 246px;
+            width: 75%;
+            /*246px*/
             height: 16px;
         }
 
         #q2checkbox {
-            width: 91px;
+            width: 27.74%;
+            /*91px*/
             height: 14px;
             margin-top: 12px;
         }
 
-        #no {
+        .checkbox {
+            width: 27.74%;
+            /*91.1px*/
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
 
-            margin-left: 22px;
+        }
+
+        .checkno {
+            width: 31.833%;
+            /*29px*/
+            height: 14px;
+        }
+
+        .checkyes {
+            width: 36.223%;
+            /*33px*/
+            height: 14px;
+            margin-left: calc(100% - 36.223% - 31.833%);
+
         }
 
         #q3 {
-            width: 285px;
+            width: 86.890%;
+            /*285px*/
             height: 65px;
             margin-top: 21px;
         }
 
         #qq3 {
-            width: 199px;
+            width: 69.824%;
+            /*199px*/
             height: 16px;
         }
 
         #income {
-            width: 125px;
+            width: 43.859%;
+            /*125px*/
             height: 14px;
             margin-top: 12px;
         }
 
         #grow {
-            width: 131px;
+            width: 45.964%;
+            /*131px*/
             height: 14px;
             margin-top: 12px;
-            margin-left: 24px;
+            margin-left: 8%;
         }
 
         #simplify {
-            width: 158px;
+            width: 55.438%;
+            /*158px*/
             height: 14px;
             margin-top: 9px;
         }
 
         #all {
-            width: 104px;
+            width: 36.491%;
+            /*104px*/
             height: 14px;
             margin-top: 9px;
-            margin-left: 19px;
+            margin-left: 8%;
         }
 
         #trialbutton {
             width: 196px;
             height: 34px;
             margin-top: 50px;
-            margin-left: 151px;
+            margin-left: calc(50% - 196px /2);
             background: black;
             border: none;
             border-radius: 76.23px;
@@ -165,11 +205,11 @@
                     <div id="q2">
                         <h4></h4>
                     </div>
-                    <div id="q2checkbox">
-                        <input type="checkbox" id="yes" name="yes">
-                        <label for="yes"></label>
-                        <input type="checkbox" id="no" name="no">
+                    <div class="checkbox" id="q2checkbox">
+                        <input type="checkbox" class="checkno" id="no" name="no">
                         <label for="no"></label>
+                        <input type="checkbox" class="checkyes" id="yes" name="yes">
+                        <label for="yes"></label>
                     </div>
                     <div id="q3">
                         <div id="qq3">

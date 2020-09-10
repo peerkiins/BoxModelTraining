@@ -16,12 +16,14 @@
         }
 
         body * {
-            border: 1px solid white;
+            outline: 1px solid white;
         }
 
         #container {
-            width: 1220px;
-            height: 847px;
+            width: 100%;
+            /*1220px*/
+            height: 100%;
+            /*1089px*/
         }
 
         #container * {
@@ -29,131 +31,152 @@
         }
 
         header {
-            width: 1220px;
-            height: 135px;
+            width: 91.803%;
+            /*1120px*/
+            height: 54px;
+            /*54px*/
+            margin-top: 31px;
+            margin-left: calc(50% - 91.803% / 2);
+            /*48px*/
         }
 
         #logo {
-            width: 129px;
+            width: 11.517%;
+            /*129px*/
             height: 43.41px;
-            margin-top: 40px;
-            margin-left: 48px;
+            margin-top: calc(54px / 2 - 43.41px / 2);
         }
 
         nav {
-            width: 404px;
+            width: 34.732%;
+            /*389px*/
             height: 54px;
-            margin-top: 30px;
-            margin-left: 228px;
+            margin-left: calc(50% - 11.51% - (34.75% / 2));
         }
 
-        #nav1 {
-            width: 94px;
-            height: 54px;
+        ul {
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
         }
 
-        #nav2 {
-            width: 143px;
-            height: 54px;
-            margin-left: 53px;
+        li {
+            float: left;
         }
 
-        #nav3 {
-            width: 57px;
-            height: 54px;
-            margin-left: 52px;
+        li a {
+            display: inline;
+            text-align: center;
+            font-size: 25px;
         }
 
         #signup {
-            width: 196px;
+            width: 17.5%;
+            /*196px*/
             height: 34px;
-            margin-top: 41px;
-            margin-left: 159px;
+            margin-top: calc(54px / 2 - 34px / 2);
+            margin-left: calc(100% - 11.517% - 34.73% - 17.5% -(50% - 11.51% - (34.75% / 2)));
             border-radius: 76.23px;
         }
 
         segment {
-            width: 1014px;
+            width: 83.114%;
+            /*1014px*/
             height: 490px;
-            margin-left: 106px;
-            margin-bottom: 136px;
+            margin-left: calc(50% - 83.114% /2);
+            margin-top: 52px;
         }
 
         #heading1 {
-            width: 656px;
+            width: 64.694%;
+            /*656px*/
             height: 35.13px;
-            margin-left: calc(286px - 106px);
+            margin-left: calc(50% - 64.964% / 2);
         }
 
         #heading2 {
-            width: 706px;
+            width: 69.625%;
+            /*706px*/
             height: 47px;
             margin-top: 27px;
-            margin-left: calc(258px - 106px);
+            margin-left: calc(50% - 69.625% / 2);
         }
 
         #paragraph1 {
-            width: 480px;
+            width: 47.337%;
+            /*480px*/
             height: 338px;
             margin-top: 39px;
-            margin-left: 2px;
         }
 
         #paragraph2 {
-            width: 480px;
+            width: 47.337%;
+            /*480px*/
             height: 246px;
             margin-top: 39px;
-            margin-left: 48px;
+            margin-left: calc(100% - 47.337% * 2);
         }
 
         footer {
-            width: 1106.44px;
+            width: 90.433%;
+            /*1106px*/
             height: 54px;
-            margin-left: 53px;
+            margin-top: 133px;
+            margin-left: calc(50% - 90.433% / 2);
         }
 
-        #share {
-            width: 61px;
+        #follow {
+            width: 6.871%;
+            /*76px*/
             height: 54px;
         }
 
         #icons {
-            width: 73.48px;
-            height: 20.12px;
-            margin-left: 31px;
-            margin-top: 16px;
+            width: 6.734%;
+            /*74.48*/
+            height: 20.12;
+            margin-top: calc(54px / 2 - 20.12px / 2);
+            margin-left: 2.983%;
         }
 
         #ig {
-            width: 20.12px;
+            width: 27.381%;
+            /*20.12px*/
             height: 20.12px;
         }
 
         #tw {
-            width: 20.12px;
+            width: 27.381%;
+            /*20.12px*/
             height: 20.12px;
-            margin-left: 30px;
+            margin-left: calc(100% - 27.381% * 2)
         }
 
         #policy {
-            width: 110px;
+            width: 9.945%;
+            /*110px*/
             height: 28px;
-            margin-top: calc(54px - (28px + 42px - 28px));
-            margin-left: 220px;
+            margin-top: calc(54px / 2 - 28px / 2);
+            margin-left: 20.119%;
+            /*222.52*/
         }
 
         #copyright {
-            width: 167px;
+            width: 15.099%;
+            /*167px*/
             height: 25px;
-            margin-top: calc(54px - (25px + 44px - 28px));
-            margin-left: 55px;
+            margin-top: calc(54px / 2 - 25px / 2);
+            margin-left: 5.153%;
+            /*57px*/
         }
 
         #support {
-            width: 196.44px;
+            width: 17.761%;
+            /*196.44px*/
             height: 34px;
-            margin-top: calc(54px - (34px + 40px - 28px));
-            margin-left: 184px;
+            margin-top: calc(54px / 2 - 34px / 2);
+            margin-left: 15.3%;
+            /*186px*/
             border-radius: 76.23px;
         }
     </style>
@@ -164,9 +187,11 @@
         <header>
             <div id=logo>LOGO HERE</div>
             <nav>
-                <a id="nav1">NAV 1</a>
-                <a id="nav2">NAV 2</a>
-                <a id="nav3">NAV 3</a>
+                <ul>
+                    <li><a id="nav1">NAV 1</a></li>
+                    <li> <a id="nav2">NAV 2</a></li>
+                    <li><a id="nav3">NAV 3</a></li>
+                </ul>
             </nav>
             <button id="signup">button</button>
         </header>
@@ -187,10 +212,10 @@
         </segment>
 
         <footer>
-            <div id="share"><a>share</a></div>
+            <div id="follow"><a>follow</a></div>
             <div id="icons">
-                <a id="ig">icon1</a>
-                <a id="tw">icon2</a>
+                <a id="ig">i1</a>
+                <a id="tw">i2</a>
             </div>
             <a id="policy">policy</a>
             <a id="copyright">copyright</a>

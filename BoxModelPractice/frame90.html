@@ -16,12 +16,14 @@
         }
 
         body * {
-            border: 1px solid white;
+            outline: 1px solid white;
         }
 
         #container {
-            width: 1220px;
-            height: 1089px;
+            width: 100%;
+            /*1220px*/
+            height: 100%;
+            /*1089px*/
         }
 
         #container * {
@@ -29,182 +31,206 @@
         }
 
         header {
-            width: 1220px;
-            height: 150px;
+            width: 91.803%;
+            /*1120px*/
+            height: 54px;
+            /*54px*/
+            margin-top: 31px;
+            margin-left: calc(50% - 91.803% / 2);
+            /*48px*/
         }
 
         #logo {
-            width: 129px;
+            width: 11.517%;
+            /*129px*/
             height: 43.41px;
-            margin-top: 40px;
-            margin-left: 48px;
+            margin-top: calc(54px / 2 - 43.41px / 2);
         }
 
         nav {
-            width: 389px;
+            width: 34.732%;
+            /*389px*/
             height: 54px;
-            margin-top: 31px;
-            margin-left: 235px;
+            margin-left: calc(50% - 11.51% - (34.75% / 2));
         }
 
-        #nav1 {
-            width: 65px;
-            height: 54px;
+        ul {
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
         }
 
-        #nav2 {
-            width: 35px;
-            height: 54px;
-            margin-left: 59px;
+        li {
+            float: left;
         }
 
-        #nav3 {
-            width: 47px;
-            height: 54px;
-            margin-left: 60px;
-        }
-
-        #nav4 {
-            width: 56px;
-            height: 54px;
-            margin-left: 60px;
+        li a {
+            display: inline;
+            text-align: center;
+            font-size: 25px;
         }
 
         #signup {
-            width: 196px;
+            width: 17.5%;
+            /*196px*/
             height: 34px;
-            margin-top: 41px;
-            margin-left: 169px;
+            margin-top: calc(54px / 2 - 34px /2);
+            margin-left: calc(100% - 11.517% - 34.73% - 17.5% -(50% - 11.51% - (34.75% / 2)));
             border-radius: 76.23px;
         }
 
         section {
-            width: 1220px;
-            height: calc(1089px - 116px - 150px);
+            width: 82.131%;
+            /*1002px*/
+            height: 755px;
+            margin-top: 65px;
+            margin-left: calc(50% - 82.131% / 2);
+            /*107px*/
         }
 
         #header1 {
-            width: 656px;
+            width: 65.469%;
+            /*656px*/
             height: 35.13px;
-            margin-left: 284px;
+            margin-left: calc(50% - 65.469% / 2);
+        }
+
+        #searchbar {
+            width: 57.485%;
+            /*576px*/
+            height: 34px;
+            margin-top: 65.87px;
+            margin-left: calc(50% - 57.485% / 2);
         }
 
         #searchtext {
-            width: 250px;
+            width: 43.402%;
+            /*250px*/
             height: 25px;
-            margin-top: 65px;
-            margin-left: 498px;
+            margin-top: calc(34px / 2 - 25px / 2);
+            margin-left: calc(50% - 43.402% / 2);
+            /*498px*/
         }
 
         #searchicon {
-            width: 21px;
+            width: 3.645%;
+            /*21px*/
             height: 21px;
-            margin-top: 67px;
-            margin-left: 114px;
-            margin-right: 333px;
-            margin-bottom: 2px;
+            margin-top: calc(34px / 2 - 21px / 2);
+            margin-left: calc(100% - 43.402% - 3.645% - (50% - 43.402% / 2));
         }
 
         .article {
-            width: 316px;
+            width: 31.536%;
+            /*316px*/
             height: 267px;
-            margin-top: 26px;
-            margin-left: 26px;
-        }
-
-        .article * {
-            border: 1px solid white;
         }
 
         .top {
+            margin-top: 59px;
+        }
+
+        .bot {
+            margin-top: 29.98px;
+        }
+
+        .mid {
+            margin-left: calc(50% - 31.536% - (31.536% / 2));
+        }
+
+        .right {
+            margin-left: calc(100% - (31.536% * 3) - (50% - 31.536% - (31.536% / 2)));
+        }
+
+        .text {
+            outline: 1px solid white;
+            width: 74.683%;
+            /*236px*/
+            margin-left: calc(50% - 74.683% / 2);
+
+        }
+
+        .tleft {
+            height: 107px;
+            margin-top: calc(267px - 107px - 21px);
+        }
+
+        .tright {
+            height: 134px;
+            margin-top: calc(267px - 134px - 21px);
+        }
+
+
+
+        #footercontainer {
+            width: 100%;
+            height: 116px;
+            background-color: grey;
             margin-top: 68px;
         }
 
-        #article1,
-        #article4 {
-            margin-left: 106px;
-        }
-
-        #text1 {
-            width: 263px;
-            height: 107px;
-            margin-top: 138px;
-            margin-left: 26px;
-        }
-
-        #text2 {
-            width: 265px;
-            height: 134px;
-            margin-top: 111px;
-            margin-left: 26px;
-        }
-
-        #text3 {
-            width: 262px;
-            height: 134px;
-            margin-top: 111px;
-            margin-left: 26px;
-        }
-
-        #text4 {
-            width: 263px;
-            height: 107px;
-            margin-top: 138px;
-            margin-left: 26px;
-        }
-
         footer {
-            width: 1221px;
-            height: 116px;
-            background: grey;
-            color: black;
+            width: 90.691%;
+            /*1106.44px*/
+            height: 54px;
+            margin-top: calc(116px / 2 - 54px / 2);
+            margin-left: calc(50% - 90.691% / 2)
         }
 
-        #share {
-            width: 61px;
+        #follow {
+            width: 5.513%;
+            /*61px*/
             height: 54px;
-            margin-top: 33px;
-            margin-left: 51px;
         }
 
         #icons {
-            width: 73.48px;
+            width: 6.641%;
+            /*73.48px*/
             height: 20.12px;
-            margin-top: 49px;
-            margin-left: 31px;
+            margin-top: calc(54px / 2 - 20.12px / 2);
+            margin-left: 2.349%;
+            /*26px*/
         }
 
         #ig {
-            width: 20.12px;
+            width: 27.381%;
+            /*20.12px*/
             height: 20.12px;
         }
 
         #tw {
-            width: 20.12px;
+            width: 27.381%;
+            /*20.12px*/
             height: 20.12px;
-            margin-left: 30px;
+            margin-left: calc(100% - 27.381% * 2)
         }
 
         #policy {
-            width: 110px;
+            width: 9.941%;
+            /*110px*/
             height: 28px;
-            margin-top: 45px;
-            margin-left: 221px;
+            margin-top: calc(54px / 2 - 28px / 2);
+            margin-left: 20.111%;
+            /*222.52px*/
         }
 
         #copyright {
-            width: 167px;
+            width: 15.093%;
+            /*167px*/
             height: 25px;
-            margin-top: 46px;
-            margin-left: 56px;
+            margin-top: calc(54px / 2 - 25px / 2);
+            margin-left: 5.151%;
+            /*57px*/
         }
 
         #support {
-            width: 196.44px;
+            width: 17.754%;
+            /*196.44px*/
             height: 34px;
             border-radius: 76.23px;
-            margin-top: 40px;
-            margin-left: 185px;
+            margin-top: calc(54px / 2 - 34px / 2);
+            margin-left: 16.810%;
+            /*186px*/
         }
     </style>
 </head>
@@ -214,40 +240,47 @@
         <header>
             <div id=logo>LOGO HERE</div>
             <nav>
-                <a id="nav1">NAV 1</a>
-                <a id="nav2">NAV 2</a>
-                <a id="nav3">NAV 3</a>
-                <a id="nav4">NAV 4</a>
+                <ul>
+                    <li><a id="nav1">NAV 1</a></li>
+                    <li> <a id="nav2">NAV 2</a></li>
+                    <li><a id="nav3">NAV 3</a></li>
+                    <li><a id="nav4">NAV 4</a></li>
+                </ul>
             </nav>
             <button id="signup">button</button>
         </header>
         <section>
             <h1 id="header1"></h1>
-            <h2 id="searchtext"></h2>
-            <div id="searchicon"></div>
-            <div class="top article" id="article1">
-                <p id="text1"></p>
+            <div id="searchbar">
+                <h2 id="searchtext"></h2>
+                <div id="searchicon"></div>
             </div>
-            <div class="top article" id="article2">
-                <p id="text2"></p>
+            <div class="top left article" id="article1">
+                <p class="tleft text" id="text1">1</p>
             </div>
-            <div class="top article" id="article3">
-                <p id="text3"></p>
+            <div class="top mid article" id="article2">
+                <p class="tright text" id="text2">2</p>
             </div>
-            <div class="article" id="article4">
-                <p id="text4"></p>
+            <div class="top right article" id="article3">
+                <p class="tright text" id="text3">3</p>
+            </div>
+            <div class="bot left article" id="article4">
+                <p class="tleft text" id="text4">4</p>
             </div>
         </section>
-        <footer>
-            <div id="share"><a>share</a></div>
-            <div id="icons">
-                <a id="ig">icon1</a>
-                <a id="tw">icon2</a>
-            </div>
-            <a id="policy">policy</a>
-            <a id="copyright">copyright</a>
-            <button id="support">Support</button>
-        </footer>
+        <div id="footercontainer">
+            <footer>
+                <div id="follow"><a>follow</a></div>
+                <div id="icons">
+                    <a id="ig">i1</a>
+                    <a id="tw">i2</a>
+                </div>
+                <a id="policy">policy</a>
+                <a id="copyright">copyright</a>
+                <button id="support">Support</button>
+            </footer>
+        </div>
+
     </div>
 </body>
 
